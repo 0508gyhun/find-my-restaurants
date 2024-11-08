@@ -16,6 +16,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>
 
+    <hi again>s</hi>
+
 <!--    <HorizontalScrollView-->
 <!--        android:id="@+id/chipGroupScrollView"-->
 <!--        android:layout_width="wrap_content"-->
