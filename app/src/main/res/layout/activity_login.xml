@@ -12,8 +12,6 @@
         android:layout_height="wrap_content"
         android:text= "Android app name"
 
-        test commit for local branch
-
         android:textSize="40sp"
         android:textColor="@color/blue"
 
