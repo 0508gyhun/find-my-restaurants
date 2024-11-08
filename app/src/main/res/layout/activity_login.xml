@@ -12,9 +12,6 @@
         android:layout_height="wrap_content"
         android:text= "Android app name"
 
-        hi hello<>
-
-
         android:textSize="40sp"
         android:textColor="@color/blue"
 
