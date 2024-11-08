@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/const_bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+
+    app:behavior_hideable="true"
+    app:behavior_fitToContents="true"
+    app:behavior_expandedOffset="0dp"
+    android:paddingBottom="1dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    android:background="@drawable/bottom_sheet_background">
+
+
+    <View
+        android:id="@+id/view_bottom_sheet_bar"
+        android:layout_width="50dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="10dp"
+
+        android:background="@color/darkGray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <TextView
+        android:id="@+id/tv_app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view_bottom_sheet_bar"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+
+        android:text="Android app name"
+        android:textSize="15sp"
+        />
+
+    <ImageButton
+        android:id="@+id/ib_favorite_star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/description_favorite_btn"
+        android:src="@drawable/ic_favorite_star"
+        app:layout_constraintTop_toTopOf="@id/tv_app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/white"
+        app:tint="@color/selector_ic_favorite" />
+
+    <ImageView
+        android:id="@+id/ev_restaurant1"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_app_name"
+        tools:src="@drawable/ic_mypage" />
+
+    <ImageView
+        android:id="@+id/ev_restaurant2"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintStart_toEndOf="@id/ev_restaurant2"
+        app:layout_constraintTop_toBottomOf="@id/tv_app_name"
+        tools:src="@drawable/ic_search" />
+
+    <TextView
+        android:id="@+id/tv_restaurant_name_label"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+
+        android:text="상호명"
+        app:layout_constraintTop_toBottomOf="@id/ev_restaurant1"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <TextView
+        android:id="@+id/tv_restaurant_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+
+        tools:text="금돼지 식당"
+        app:layout_constraintTop_toBottomOf="@id/ev_restaurant1"
+        app:layout_constraintStart_toEndOf="@id/tv_restaurant_name_label"/>
+
+
+    <TextView
+        android:id="@+id/tv_restaurant_address_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_restaurant_name_label"
+        app:layout_constraintStart_toStartOf="@id/tv_restaurant_name_label"
+        android:text="주소"
+        />
+    <TextView
+        android:id="@+id/tv_restaurant_address"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="경기도 용인시 수지구 수지로 75 심곡마을 203동 402호 가나다람akqk"
+        android:maxLines="3"
+        android:ellipsize="end"
+        app:layout_constraintTop_toBottomOf="@id/tv_restaurant_name"
+        app:layout_constraintStart_toEndOf="@id/tv_restaurant_name_label"
+        app:layout_constraintEnd_toEndOf="parent"
+      />
+
+
+    <TextView
+        android:id="@+id/tv_restaurant_tel_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="전화번호"
+        app:layout_constraintTop_toBottomOf="@id/tv_restaurant_address"
+        app:layout_constraintStart_toStartOf="@id/tv_restaurant_address_label"/>
+
+    <TextView
+        android:id="@+id/tv_restaurant_tel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:ellipsize="end"
+        tools:text="031-020-9488a10101010101000-3030303-4040440404404"
+        app:layout_constraintStart_toStartOf="@id/tv_restaurant_address"
+        app:layout_constraintTop_toTopOf="@id/tv_restaurant_tel_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+    <TextView
+        android:id="@+id/tv_restaurant_detail_info_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+
+
+        app:layout_constraintTop_toBottomOf="@id/tv_restaurant_tel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text = "상세정보입니다"/>
+    <TextView
+        android:id="@+id/tv_restaurant_detail_info_firstMenu_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="대표메뉴"
+        app:layout_constraintTop_toBottomOf="@id/tv_restaurant_detail_info_label"
+        app:layout_constraintStart_toStartOf="@id/tv_restaurant_tel_label"/>
+
+    <TextView
+        android:id="@+id/tv_restaurant_detail_info_firstMenu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        tools:text="대표메뉴 삼겹살tkftkftkftkftkftkftkftkftkfdddkdlk"
+        android:maxLines="3"
+        android:ellipsize="end"
+        app:layout_constraintStart_toStartOf="@id/tv_restaurant_tel"
+        app:layout_constraintTop_toBottomOf="@id/tv_restaurant_detail_info_label"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_restaurant_detail_info_treatMenu_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="메뉴"
+        app:layout_constraintTop_toBottomOf="@id/tv_restaurant_detail_info_firstMenu"
+        app:layout_constraintStart_toStartOf="@id/tv_restaurant_detail_info_firstMenu_label"/>
+
+    <TextView
+        android:id="@+id/tv_restaurant_detail_info_treatMenu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:maxLines="3"
+        android:ellipsize="end"
+        tools:text="다른메뉴 된장, 오돌뼈dkdkkrkrkskekdkfkfkelekdkmdkdkd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/tv_restaurant_detail_info_firstMenu"
+        app:layout_constraintTop_toBottomOf="@id/tv_restaurant_detail_info_firstMenu"/>
+
+    <TextView
+        android:id="@+id/tv_restaurant_detail_info_openTime_label"
+        android:text="영업시간"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/tv_restaurant_detail_info_treatMenu_label"
+        app:layout_constraintTop_toBottomOf="@id/tv_restaurant_detail_info_treatMenu"/>
+
+    <TextView
+        android:id="@+id/tv_restaurant_detail_info_openTime"
+        tools:text="9:10 - 1:00rkskekfkakqkrkdkskwkxkdkskxkskskskdk"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:ellipsize="end"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/tv_restaurant_detail_info_treatMenu"
+        app:layout_constraintTop_toBottomOf="@id/tv_restaurant_detail_info_treatMenu"/>
+
+    <TextView
+        android:id="@+id/tv_restaurant_detail_info_restDate_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="휴무일"
+        app:layout_constraintTop_toBottomOf="@id/tv_restaurant_detail_info_openTime"
+        app:layout_constraintStart_toStartOf="@id/tv_restaurant_detail_info_openTime_label"/>
+
+    <TextView
+        android:id="@+id/tv_restaurant_detail_info_restDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="매주 수요일 휴무dhk rmkskekfkakqktktktktkekekdldkldkdk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/tv_restaurant_detail_info_openTime"
+        app:layout_constraintTop_toBottomOf="@id/tv_restaurant_detail_info_openTime"/>
+    <TextView
+        android:id="@+id/tv_restaurant_detail_info_parking_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="주차"
+        app:layout_constraintTop_toBottomOf="@id/tv_restaurant_detail_info_restDate"
+        app:layout_constraintStart_toStartOf="@id/tv_restaurant_detail_info_restDate_label"/>
+
+    <TextView
+        android:id="@+id/tv_restaurant_detail_info_parking"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="주차 100개 가능rksmdrksmdkrmrkkkekekekekekrkk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/tv_restaurant_detail_info_restDate"
+        app:layout_constraintTop_toBottomOf="@id/tv_restaurant_detail_info_restDate"/>
+
+
+    <TextView
+        android:id="@+id/tv_restaurant_detail_info_packing_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="포장"
+        app:layout_constraintTop_toBottomOf="@id/tv_restaurant_detail_info_parking"
+        app:layout_constraintStart_toStartOf="@id/tv_restaurant_detail_info_parking_label"/>
+
+    <TextView
+        android:id="@+id/tv_restaurant_detail_info_packing"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="포장 불가능rrjrjrkrkfkfkfkfkfkfkfkfkfkfkfkfdkkjfkjfkfkfk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/tv_restaurant_detail_info_parking"
+        app:layout_constraintTop_toBottomOf="@id/tv_restaurant_detail_info_parking"/>
+
+    <TextView
+        android:id="@+id/access_description_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="접근성 정보입니다."
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_restaurant_detail_info_packing"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <com.example.muapp.views.HorizontalTextLayout
+        android:id="@+id/tv_restaurant_access_exit_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:textLabel="@string/description_access_exit_label"
+        android:layout_marginTop="10dp"
+
+
+        app:layout_constraintTop_toBottomOf="@id/access_description_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <com.example.muapp.views.HorizontalTextLayout
+        android:id="@+id/tv_restaurant_access_accessInfo_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+
+        app:textLabel="@string/description_access_accessInfo_label"
+
+        app:layout_constraintTop_toBottomOf="@id/tv_restaurant_access_exit_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <com.example.muapp.views.HorizontalTextLayout
+        android:id="@+id/tv_restaurant_access_parking_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:textLabel="@string/description_access_parking_label"
+        android:layout_marginTop="8dp"
+
+
+        app:layout_constraintTop_toBottomOf="@id/tv_restaurant_access_accessInfo_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <com.example.muapp.views.HorizontalTextLayout
+        android:id="@+id/tv_restaurant_access_route_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:textLabel="@string/description_access_route_label"
+        android:layout_marginTop="8dp"
+
+
+        app:layout_constraintTop_toBottomOf="@id/tv_restaurant_access_parking_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <com.example.muapp.views.HorizontalTextLayout
+        android:id="@+id/tv_restaurant_access_elevator_label"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:textLabel="@string/description_access_elevator_label"
+        android:layout_marginTop="8dp"
+
+        app:layout_constraintTop_toBottomOf="@id/tv_restaurant_access_route_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

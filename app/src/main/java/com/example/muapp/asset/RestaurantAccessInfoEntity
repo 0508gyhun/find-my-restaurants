@@ -1,0 +1,48 @@
+{
+  "response": {
+    "header": {
+      "resultCode": "0000",
+      "resultMsg": "OK"
+    },
+    "body": {
+      "items": {
+        "item": [
+          {
+            "contentid": "699542",
+            "parking": "장애인 전용 주차구역 없음.\u003Cbr/\u003E식당 건물 내 주차장 있음.",
+            "route": "대중교통 없음.",
+            "publictransport": "테이블 간격이 넓음. 방문 시, 휠체어 사용자 이용 쉬움.\u003Cbr/\u003E내부 턱 없음.",
+            "ticketoffice": "",
+            "promotion": "",
+            "wheelchair": "",
+            "exit": "문의 형태 : 여닫이문. \u003Cbr/\u003E출입통로가 넓어 휠체어, 전동 스쿠터 진입 쉬움.\u003Cbr/\u003E경사로 있음. 손잡이 있음.",
+            "elevator": "",
+            "restroom": "",
+            "auditorium": "",
+            "room": "",
+            "handicapetc": "의자식 테이블 있음",
+            "braileblock": "",
+            "helpdog": "",
+            "guidehuman": "",
+            "audioguide": "",
+            "bigprint": "",
+            "brailepromotion": "",
+            "guidesystem": "",
+            "blindhandicapetc": "",
+            "signguide": "",
+            "videoguide": "",
+            "hearingroom": "",
+            "hearinghandicapetc": "",
+            "stroller": "",
+            "lactationroom": "",
+            "babysparechair": "",
+            "infantsfamilyetc": ""
+          }
+        ]
+      },
+      "numOfRows": 1,
+      "pageNo": 1,
+      "totalCount": 1
+    }
+  }
+}

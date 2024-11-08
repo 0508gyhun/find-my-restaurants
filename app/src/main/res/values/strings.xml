@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Muapp</string>
+    <string name="description_home">home</string>
+    <string name="description_search">search</string>
+    <string name="description_my_page">my page</string>
+    <string name="description_recommend">recommend</string>
+    <string name="description_access_accessInfo_label">접근성</string>
+    <string name="description_access_exit_label">출입구</string>
+    <string name="description_access_elevator_label">엘레베이터</string>
+    <string name="description_access_etc_label">기타 정보</string>
+    <string name="description_access_parking_label">장애인 주차장</string>
+    <string name="description_access_route_label">오시는 길</string>
+    <string name="description_favorite_btn">즐겨찾기 버튼</string>
+    <string name="description_favorite">favorite</string>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "response": {
+    "header": {
+      "resultCode": "0000",
+      "resultMsg": "OK"
+    },
+    "body": {
+      "items": {
+        "item": [
+          {
+            "addr1": "서울특별시 강남구 언주로167길 35",
+            "addr2": "",
+            "areacode": "1",
+            "booktour": "",
+            "cat1": "A05",
+            "cat2": "A0502",
+            "cat3": "A05020400",
+            "contentid": "2869760",
+            "contenttypeid": "39",
+            "createdtime": "20221018170906",
+            "firstimage": "http://tong.visitkorea.or.kr/cms/resource/54/2869754_image2_1.JPG",
+            "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/54/2869754_image3_1.JPG",
+            "cpyrhtDivCd": "Type3",
+            "mapx": "127.0302729961",
+            "mapy": "37.5264209476",
+            "mlevel": "6",
+            "modifiedtime": "20240226140148",
+            "sigungucode": "1",
+            "tel": "",
+            "title": "가담",
+            "zipcode": "06022"
+          },
+          {
+            "addr1": "충청북도 제천시 수산면 월악로 2970",
+            "addr2": "",
+            "areacode": "33",
+            "booktour": "",
+            "cat1": "A05",
+            "cat2": "A0502",
+            "cat3": "A05020100",
+            "contentid": "2013680",
+            "contenttypeid": "39",
+            "createdtime": "20150706190209",
+            "firstimage": "http://tong.visitkorea.or.kr/cms/resource/31/2013731_image2_1.JPG",
+            "firstimage2": "http://tong.visitkorea.or.kr/cms/resource/31/2013731_image2_1.JPG",
+            "cpyrhtDivCd": "Type3",
+            "mapx": "128.1772085952",
+            "mapy": "36.9329354680",
+            "mlevel": "6",
+            "modifiedtime": "20240718093207",
+            "sigungucode": "7",
+            "tel": "043-651-2264",
+            "title": "가람",
+            "zipcode": "27220"
+          },

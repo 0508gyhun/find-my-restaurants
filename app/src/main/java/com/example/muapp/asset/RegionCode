@@ -1,0 +1,110 @@
+{
+  "response": {
+    "header": {
+      "resultCode": "0000",
+      "resultMsg": "OK"
+    },
+    "body": {
+      "items": {
+        "item": [
+          {
+            "rnum": 1,
+            "code": "1",
+            "name": "서울"
+          },
+          {
+            "rnum": 2,
+            "code": "2",
+            "name": "인천"
+          },
+          {
+            "rnum": 3,
+            "code": "3",
+            "name": "대전"
+          },
+          {
+            "rnum": 4,
+            "code": "4",
+            "name": "대구"
+          },
+          {
+            "rnum": 5,
+            "code": "5",
+            "name": "광주"
+          },
+          {
+            "rnum": 6,
+            "code": "6",
+            "name": "부산"
+          },
+          {
+            "rnum": 7,
+            "code": "7",
+            "name": "울산"
+          },
+          {
+            "rnum": 8,
+            "code": "8",
+            "name": "세종특별자치시"
+          },
+          {
+            "rnum": 9,
+            "code": "31",
+            "name": "경기도"
+          },
+          {
+            "rnum": 10,
+            "code": "32",
+            "name": "강원특별자치도"
+          },
+          {
+            "rnum": 11,
+            "code": "33",
+            "name": "충청북도"
+          },
+          {
+            "rnum": 12,
+            "code": "34",
+            "name": "충청남도"
+          },
+          {
+            "rnum": 13,
+            "code": "35",
+            "name": "경상북도"
+          },
+          {
+            "rnum": 14,
+            "code": "36",
+            "name": "경상남도"
+          },
+          {
+            "rnum": 15,
+            "code": "37",
+            "name": "전북특별자치도"
+          },
+          {
+            "rnum": 16,
+            "code": "38",
+            "name": "전라남도"
+          },
+          {
+            "rnum": 17,
+            "code": "39",
+            "name": "제주도"
+          }
+        ]
+      },
+      "numOfRows": 17,
+      "pageNo": 1,
+      "totalCount": 17
+    }
+  }
+}
+
+ [
+ [RestaurantItem(address=경기도 수원시 팔달구 장다리로 282, areaCode=31, sigunguCode=13, imageUrl1=http://tong.visitkorea.or.kr/cms/resource/30/817030_image2_1.jpg, imageUrl2=http://tong.visitkorea.or.kr/cms/resource/30/817030_image3_1.jpg, contentId=602895, contentTypeId=39, mapX=127.0286635731, mapY=37.2742501647, modifiedTime=20240118134844, tel=1600-3883, title=가보정갈비),
+  RestaurantItem(address=경기도 수원시 영통구 센트럴파크로127번길 147, areaCode=31, sigunguCode=13, imageUrl1=http://tong.visitkorea.or.kr/cms/resource/85/2846585_image2_1.jpg, imageUrl2=http://tong.visitkorea.or.kr/cms/resource/85/2846585_image3_1.jpg, contentId=2846589, contentTypeId=39, mapX=127.0553272588, mapY=37.2942927645, modifiedTime=20240326093201, tel=, title=디어스윗랩),
+  RestaurantItem(address=경기도 수원시 권선구 서부로 1380, areaCode=31, sigunguCode=13, imageUrl1=http://tong.visitkorea.or.kr/cms/resource/73/2873473_image2_1.jpg, imageUrl2=http://tong.visitkorea.or.kr/cms/resource/73/2873473_image3_1.jpg, contentId=2873484, contentTypeId=39, mapX=126.9847798075, mapY=37.2333680049, modifiedTime=20240621142616, tel=, title=마포해장),
+   RestaurantItem(address=경기도 수원시 장안구 경수대로 1196-3, areaCode=31, sigunguCode=13, imageUrl1=http://tong.visitkorea.or.kr/cms/resource/68/2754368_image2_1.jpg, imageUrl2=http://tong.visitkorea.or.kr/cms/resource/68/2754368_image2_1.jpg, contentId=2754026, contentTypeId=39, mapX=126.9889659556, mapY=37.3179166199, modifiedTime=20240726132721, tel=, title=백세짬뽕북수원본점),
+    RestaurantItem(address=경기도 수원시 팔달구 중부대로223번길 41, areaCode=31, sigunguCode=13, imageUrl1=, imageUrl2=, contentId=602854, contentTypeId=39, mapX=127.0406068312, mapY=37.2779138428, modifiedTime=20241016152851, tel=031-211-8434, title=본수원갈비)],
+     [RestaurantItem(address=서울특별시 관악구 승방4길 32 위즈엘타워(Wiz-L Tower), areaCode=1, sigunguCode=5, imageUrl1=, imageUrl2=, contentId=2810109, contentTypeId=39, mapX=126.9807206195, mapY=37.4752621110, modifiedTime=20240123133331, tel=, title=낙타날다), RestaurantItem(address=서울특별시 관악구 신림로 374, areaCode=1, sigunguCode=5, imageUrl1=, imageUrl2=, contentId=713699, contentTypeId=39, mapX=126.9289777575, mapY=37.4877097397, modifiedTime=20241016143505, tel=02-888-6940, title=미가할매집), RestaurantItem(address=서울특별시 관악구 남부순환로 1852, areaCode=1, sigunguCode=5, imageUrl1=, imageUrl2=, contentId=2818756, contentTypeId=39, mapX=126.9555949971, mapY=37.4799527826, modifiedTime=20240124101620, tel=, title=사담), RestaurantItem(address=서울특별시 관악구 신림동길 4, areaCode=1, sigunguCode=5, imageUrl1=, imageUrl2=, contentId=838590, contentTypeId=39, mapX=126.9282972653, mapY=37.4876902853, modifiedTime=20240925133048, tel=, title=아리차이)], [RestaurantItem(address=서울특별시 종로구 효자로 12, areaCode=1, sigunguCode=23, imageUrl1=http://tong.visitkorea.or.kr/cms/resource/77/1291777_image2_1.jpg, imageUrl2=http://tong.visitkorea.or.kr/cms/resource/77/1291777_image3_1.jpg, contentId=583700, contentTypeId=39, mapX=126.9748932860, mapY=37.5766530058, modifiedTime=20231115155124, tel=02-720-0486, title=고궁뜨락), RestaurantItem(address=서울특별시 종로구 창경궁로 158, areaCode=1, sigunguCode=23, imageUrl1=, imageUrl2=, contentId=1985692, contentTypeId=39, mapX=126.9976078870, mapY=37.5764784341, modifiedTime=20240729150700, tel=02-762-7620, title=고궁의 아침), RestaurantItem(address=서울특별시 종로구 자하문로 276 부원빌딩, areaCode=1, sigunguCode=23, imageUrl1=, imageUrl2=, contentId=2939571, contentTypeId=39, mapX=126.9623993674, mapY=37.5982613810, modifiedTime=20240917174312, tel=, title=국시랑만두), RestaurantItem(address=서울특별시 종로구 새문안로5가길 7, 2층, areaCode=1, sigunguCode=23, imageUrl1=http://tong.visitkorea.or.kr/cms/resource/54/2544554_image2_1.bmp, imageUrl2=http://tong.visitkore

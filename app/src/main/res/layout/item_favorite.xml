@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="250dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_restaurant_image"
+            android:layout_width="@dimen/viewpager_item_width"
+            android:layout_height="150dp"
+            android:layout_marginStart="@dimen/viewpager_item_margin"
+            android:scaleType="centerCrop"
+            android:src="@color/yellow"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/AppRoundedImage" />
+        <TextView
+            android:id="@+id/tv_favorite_name_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textStyle="normal"
+            app:layout_constraintTop_toBottomOf="@id/iv_restaurant_image"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="30dp"
+            android:text="상호명 :"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/tv_favorite_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/tv_favorite_name_label"
+            app:layout_constraintStart_toEndOf="@id/tv_favorite_name_label"
+            android:layout_marginStart="10dp"
+            android:textStyle="normal"
+
+            tools:text="금돼지식당"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/tv_favorite_address_label"
+            android:textStyle="normal"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@id/tv_favorite_name_label"
+            app:layout_constraintEnd_toEndOf="@id/tv_favorite_name_label"
+            app:layout_constraintTop_toBottomOf="@id/tv_favorite_name_label"
+
+
+            android:text="주    소 :"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/tv_favorite_address"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="@id/iv_restaurant_image"
+            app:layout_constraintStart_toEndOf="@id/tv_favorite_address_label"
+
+            app:layout_constraintTop_toBottomOf="@id/tv_favorite_name"
+            tools:text="경기도 용인시 수지구 수지로 75 dlstoddms rorkxdms dls" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

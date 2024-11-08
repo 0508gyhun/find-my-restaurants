@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_graph"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.muapp.ui.Home.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout = "@layout/fragment_home">
+        <argument
+            android:name="contentId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="mapX"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="mapY"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_favorite"
+            app:destination="@id/navigation_favorite" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_my_page"
+        android:name="com.example.muapp.ui.MyPage.MypageFragment"
+        android:label="MypageFragment"
+        tools:layout="@layout/fragment_mypage">
+        <action
+            android:id="@+id/action_navigation_my_page_to_navigation_favorite"
+            app:destination="@id/navigation_favorite" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.example.muapp.ui.Search.SearchFragment"
+        android:label="SearchFragment"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_navigation_search_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_favorite"
+        android:name="com.example.muapp.ui.MyPage.FavoriteFragment"
+        tools:layout="@layout/fragment_favorite"
+        android:label="FavoriteFragment" />
+</navigation>

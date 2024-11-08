@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "352135394280",
+    "project_id": "muapp-b0bd2",
+    "storage_bucket": "muapp-b0bd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352135394280:android:c58e2a5ecab409ee4faa5d",
+        "android_client_info": {
+          "package_name": "com.example.muapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzB-hH538R0y6IEiYeojw5bMPbws0SMM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

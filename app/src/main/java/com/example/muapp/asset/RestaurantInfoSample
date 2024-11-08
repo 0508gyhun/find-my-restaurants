@@ -1,0 +1,37 @@
+{
+  "response": {
+    "header": {
+      "resultCode": "0000",
+      "resultMsg": "OK"
+    },
+    "body": {
+      "items": {
+        "item": [
+          {
+            "contentid": "2608621",
+            "contenttypeid": "39",
+            "seat": "",
+            "kidsfacility": "0",
+            "firstmenu": "함흥냉면",
+            "treatmenu": "함흥냉면 / 갈비탕 / 만두전골 외",
+            "smoking": "모두 금연석",
+            "packing": "가능",
+            "infocenterfood": "033-633-2256",
+            "scalefood": "",
+            "parkingfood": "있음 (약 소형 100대, 대형20대 주차가능), 무료",
+            "opendatefood": "",
+            "opentimefood": "10:30~20:30",
+            "restdatefood": "매주 목요일",
+            "discountinfofood": "",
+            "chkcreditcardfood": "가능",
+            "reservationfood": "033-633-2256",
+            "lcnsno": "19870392022"
+          }
+        ]
+      },
+      "numOfRows": 1,
+      "pageNo": 1,
+      "totalCount": 1
+    }
+  }
+}
