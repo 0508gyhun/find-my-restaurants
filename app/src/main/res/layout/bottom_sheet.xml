@@ -6,20 +6,30 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
-
     app:behavior_hideable="true"
+    android:background="@drawable/bottom_sheet_background"
+    android:layout_gravity="bottom"
     app:behavior_fitToContents="true"
-    app:behavior_expandedOffset="0dp"
-    android:paddingBottom="1dp"
-    app:layout_constraintBottom_toBottomOf="parent"
-    android:background="@drawable/bottom_sheet_background">
+
+
+    >
+
+<!--    app:behavior_expandedOffset="40dp"-->
+<!--    android:paddingBottom="1dp"-->
+
+<!--    app:behavior_peekHeight="0dp"-->
+<!---->
+<!--   -->
+<!---->
+<!---->
+<!--    -->
+<!--    >-->
 
 
     <View
         android:id="@+id/view_bottom_sheet_bar"
         android:layout_width="50dp"
         android:layout_height="5dp"
-        android:layout_marginTop="10dp"
 
         android:background="@color/darkGray"
         app:layout_constraintStart_toStartOf="parent"
@@ -57,7 +67,7 @@
     <ImageView
         android:id="@+id/ev_restaurant1"
         android:layout_width="150dp"
-        android:layout_height="100dp"
+        android:layout_height="85dp"
 
         android:layout_marginTop="20dp"
         android:scaleType="fitXY"
@@ -70,7 +80,7 @@
     <ImageView
         android:id="@+id/ev_restaurant2"
         android:layout_width="150dp"
-        android:layout_height="100dp"
+        android:layout_height="85dp"
 
         android:layout_marginTop="20dp"
         android:scaleType="fitXY"
